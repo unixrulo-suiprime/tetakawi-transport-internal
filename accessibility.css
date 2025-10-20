@@ -1,0 +1,157 @@
+/* Accessibility and Additional Styles */
+
+/* Screen Reader Only Content */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+}
+
+/* Skip to Content Link */
+.skip-to-content {
+    position: absolute;
+    top: -40px;
+    left: 6px;
+    background: var(--primary-color);
+    color: var(--white);
+    padding: 8px;
+    text-decoration: none;
+    border-radius: var(--border-radius);
+    z-index: 10001;
+    font-weight: 500;
+}
+
+.skip-to-content:focus {
+    top: 6px;
+}
+
+/* Focus Styles */
+*:focus {
+    outline: 2px solid var(--primary-color);
+    outline-offset: 2px;
+}
+
+.btn:focus {
+    outline: 2px solid var(--accent-color);
+    outline-offset: 2px;
+}
+
+/* High Contrast Mode Support */
+@media (prefers-contrast: high) {
+    .hero {
+        background: var(--primary-dark);
+    }
+    
+    .card {
+        border: 2px solid var(--gray-800);
+    }
+    
+    .btn-primary {
+        background: var(--primary-dark);
+        border: 2px solid var(--white);
+    }
+}
+
+/* Reduced Motion Support */
+@media (prefers-reduced-motion: reduce) {
+    * {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+    }
+    
+    .floating-card {
+        animation: none;
+    }
+    
+    .hero-content .container {
+        animation: none;
+    }
+}
+
+/* Print Styles */
+@media print {
+    .header,
+    .hero,
+    .footer {
+        display: none;
+    }
+    
+    .container {
+        max-width: none;
+        padding: 0;
+    }
+    
+    .card {
+        break-inside: avoid;
+        page-break-inside: avoid;
+    }
+    
+    .contact-card {
+        border: 1px solid #000;
+        margin-bottom: 1rem;
+    }
+    
+    .btn {
+        display: none;
+    }
+    
+    .contact-details span {
+        display: block;
+        margin-bottom: 0.25rem;
+    }
+    
+    .contact-details i {
+        display: none;
+    }
+}
+
+/* Dark Mode (if implemented in the future) */
+@media (prefers-color-scheme: dark) {
+    .dark-mode-preferred {
+        /* Variables for dark mode would go here */
+        --white: #1f2937;
+        --gray-50: #374151;
+        --gray-100: #4b5563;
+        --gray-900: #f9fafb;
+    }
+}
+
+/* Utility Classes for Accessibility */
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+}
+
+.focus-visible:focus {
+    outline: 2px solid var(--primary-color);
+    outline-offset: 2px;
+}
+
+/* Loading State Improvements */
+.loading-spinner {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border: 3px solid rgba(255, 255, 255, 0.3);
+    border-radius: 50%;
+    border-top-color: var(--white);
+    animation: spin 1s ease-in-out infinite;
+}
+
+@keyframes spin {
+    to { transform: rotate(360deg); }
+}

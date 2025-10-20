@@ -1,0 +1,37 @@
+{
+  "name": "tetakawi-transport-website",
+  "version": "1.0.0",
+  "description": "Sitio web moderno para el Departamento de Transporte de Tetakawi",
+  "main": "index.html",
+  "scripts": {
+    "start": "live-server --port=3000 --open=/index.html",
+    "build": "npm run minify-css && npm run minify-js",
+    "minify-css": "cleancss -o styles.min.css styles.css",
+    "minify-js": "uglifyjs script.js -o script.min.js",
+    "serve": "python -m http.server 8000",
+    "lighthouse": "lighthouse http://localhost:8000 --output=html --output-path=./lighthouse-report.html",
+    "validate": "html-validate index.html"
+  },
+  "keywords": [
+    "transport",
+    "tetakawi", 
+    "corporate",
+    "website",
+    "responsive"
+  ],
+  "author": "Tetakawi Transport Department",
+  "license": "MIT",
+  "devDependencies": {
+    "clean-css-cli": "^5.6.2",
+    "uglify-js": "^3.17.4",
+    "live-server": "^1.2.2",
+    "lighthouse": "^10.4.0",
+    "html-validate": "^8.7.4"
+  },
+  "browserslist": [
+    "> 0.5%",
+    "last 2 versions",
+    "not dead",
+    "not IE 11"
+  ]
+}

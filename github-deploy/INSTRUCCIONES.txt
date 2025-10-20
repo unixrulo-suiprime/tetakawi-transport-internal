@@ -1,0 +1,9 @@
+INSTRUCCIONES PARA GITHUB PAGES: 
+ 
+1. Ve a github.com 
+2. Crea nuevo repositorio PRIVADO 
+3. Sube todos estos archivos 
+4. Ve a Settings > Pages 
+5. Activa GitHub Pages 
+ 
+Código de acceso: TRANSPORT2024 
