@@ -85,10 +85,17 @@
 - 🌟 **Rating**: 4.0/5 estrellas (16 reseñas verificadas)
 - 🔗 **Link**: [Amazon US - Waveshare 4G/5G HAT](https://www.amazon.com/-/es/Waveshare-compatible-Raspberry-5G-4IN1-PCB-velocidad/dp/B0D7HVJKL2)
 
+### **COMPONENTES INCLUIDOS EN LA CAJA:**
+📦 **Lo que recibes:**
+- ✅ **PCIe TO 4G/5G M.2 USB3.2 HAT+** (placa principal)
+- ✅ **5G-4IN1-PCB Antenna** (antena tipo placa integrada) ⭐
+- ✅ **16P-Cable-40mm cable** (cable de conexión principal)
+- ✅ **IPEX1 to IPEX4 cables 13cm (4 piezas)** (cables de antena)
+- ✅ **Screws pack** (tornillos completos para instalación)
+
 ### **ESPECIFICACIONES TÉCNICAS:**
 - ✅ **Compatible Raspberry Pi 5** (estándar HAT+)
 - ✅ **Slot M.2 Key-B** para módulos SIM7600XX, SIM82XX, RM5XX
-- ✅ **Antena 5G-4IN1-PCB incluida** (instalación superior/inferior)
 - ✅ **3x puertos USB 3.2 Gen1** adicionales para expansión
 - ✅ **Slot nano-SIM integrado** 
 - ✅ **Puerto Type-C** para depuración/alimentación externa
@@ -99,16 +106,34 @@
 - ✅ **Preserva GPIO** del Raspberry Pi 5
 
 ### **MÓDULO 4G RECOMENDADO (por separado):**
-- **SIM7600G-H-M.2**: Frecuentemente comprado junto
-- **Características**: LTE Cat-4 global, GPS/GNSS, GSM/GPRS/Edge
-- **Compatibilidad**: M.2 Key-B (encaja perfectamente en el HAT)
+**Waveshare SIM7600G-H-M.2 Original**
+- 💰 **Precio**: $900.37 MXN + $365.55 MXN envío = **$1,265.92 MXN** ($70 USD)
+- 🌟 **Rating**: 4.7/5 estrellas (4 reseñas verificadas)
+- 📋 **Especificaciones**:
+  - ✅ **LTE Cat-4**: 4G/3G/2G global coverage
+  - ✅ **GPS/GNSS**: Posicionamiento multi-constelación integrado
+  - ✅ **Conectores**: M.2 Key-B (encaja perfectamente en el HAT)
+  - ✅ **Protocolos**: LTE-TDD/FDD, HSPA+, GSM, GPRS, Edge
+  - ✅ **Interfaz**: USB compatible
+  - ✅ **AT Commands**: Compatible con series SIM7500/SIM7600
+  - ✅ **Funciones**: FOTA, LBS, TLS integradas
+- 🔗 **Link**: [Amazon US - SIM7600G-H-M.2](https://www.amazon.com/Waveshare-SIM7600G-H-M-2-Original-Coverage-Connector/dp/B09J8X4ZZC)
+
+### **COSTO TOTAL MÓDULO 4G/GPS COMPLETO:**
+💰 **HAT + Módulo**: $1,185.42 + $1,265.92 = **$2,451.34 MXN** ($136 USD)
 
 ### **VENTAJAS CLAVE:**
-🏆 **TODO-EN-UNO**: HAT + conectividad 4G/5G + expansión USB
+🏆 **TODO-EN-UNO**: HAT + conectividad 4G/5G + expansión USB + **ANTENA INCLUIDA**
 🏆 **MONITOREO**: Medición de consumo energético en tiempo real  
 🏆 **EXPANSIÓN**: 3 puertos USB adicionales para periféricos
-🏆 **ANTENA INCLUIDA**: No requiere compras adicionales
+🏆 **INSTALACIÓN COMPLETA**: Antena, cables y tornillos incluidos ⭐
 🏆 **COMPATIBILIDAD TOTAL**: Diseñado específicamente para Pi 5
+
+### **INSTALACIÓN DE ANTENA:**
+🔧 **Configuración:**
+- **Antena tipo PCB**: Se conecta con los 4 cables IPEX incluidos
+- **Instalación flexible**: Superior o inferior según espacio disponible
+- **Sin compras adicionales**: Todo incluido para funcionar
 - ✅ Soporte para Linux/Raspbian OS
 
 ---
